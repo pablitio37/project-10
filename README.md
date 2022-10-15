@@ -6,3 +6,19 @@ I create an EC2 VM based on Ubuntu Server 20.04 LTS and name it Nginx LB (do not
 I update the instance and Install Nginx. i checked the status and it is running perfectly.
 
 ![text1](https://user-images.githubusercontent.com/108102087/195422963-0d060b7f-47ca-4272-a8df-f8432f5ea844.PNG)
+
+I created a domain name using freenon and added the servers cerated by default on routes 53
+
+![text2](https://user-images.githubusercontent.com/108102087/196011321-fa816972-c6e2-4e5c-ac4a-adb4eadc7ad2.PNG)
+
+I also added records on routes 53 to include the domain name using the public ip address of the load_balancer
+
+![text3](https://user-images.githubusercontent.com/108102087/196011368-356a904b-3bdd-4535-95e8-52be01b8bd14.PNG)
+
+I encounted blockers afterwards when i put the domain name to the browser and the result was "error 502 bad gateway"
+The error log from sudo cat /var/log/nginx/error.log shows connection failed while connecting to upstream. "http://toolingysf.ml"
+and "http://myproject/favicon.ico" I therefore checked the web servers, the httpd is down so i restart httpd
+
+![text4](https://user-images.githubusercontent.com/108102087/196011629-14415d44-f621-4ede-80e1-211689170fa4.PNG)
+
+## REGISTER A NEW DOMAIN NAME AND CONFIGURE SECURED CONNECTION USING SSL/TLS CERTIFICATES
