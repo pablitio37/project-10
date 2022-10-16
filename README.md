@@ -22,3 +22,7 @@ and "http://myproject/favicon.ico" I therefore checked the web servers, the http
 ![text4](https://user-images.githubusercontent.com/108102087/196011629-14415d44-f621-4ede-80e1-211689170fa4.PNG)
 
 ## REGISTER A NEW DOMAIN NAME AND CONFIGURE SECURED CONNECTION USING SSL/TLS CERTIFICATES
+
+certbot installed
+
+![text5](https://user-images.githubusercontent.com/108102087/196011829-31bcb946-33e7-47db-b5d0-69fd3baddf37.PNG)
