@@ -31,3 +31,6 @@ The domain site is not previously secured, therefore i downloaded the certificat
  certbot . how it is secured.
  
  ![text6](https://user-images.githubusercontent.com/108102087/196012058-b16b7523-1aef-4ba9-bf7b-45fcf4c68eab.PNG)
+ 
+ Seting up periodical renewal of your SSL/TLS certificate
+ s
