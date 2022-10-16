@@ -32,5 +32,6 @@ The domain site is not previously secured, therefore i downloaded the certificat
  
  ![text6](https://user-images.githubusercontent.com/108102087/196012058-b16b7523-1aef-4ba9-bf7b-45fcf4c68eab.PNG)
  
- Seting up periodical renewal of your SSL/TLS certificate
- s
+ Seting up periodical renewal of your SSL/TLS certificates using the command * */12 * * *   root /usr/bin/certbot renew > /dev/null 2>&1
+
+ 
