@@ -26,3 +26,8 @@ and "http://myproject/favicon.ico" I therefore checked the web servers, the http
 certbot installed
 
 ![text5](https://user-images.githubusercontent.com/108102087/196011829-31bcb946-33e7-47db-b5d0-69fd3baddf37.PNG)
+
+The domain site is not previously secured, therefore i downloaded the certificate using
+ certbot . how it is secured.
+ 
+ ![text6](https://user-images.githubusercontent.com/108102087/196012058-b16b7523-1aef-4ba9-bf7b-45fcf4c68eab.PNG)
